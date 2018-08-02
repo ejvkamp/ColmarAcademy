@@ -1,0 +1,87 @@
+/* Global Settings*/
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Top Nav */
+
+.topNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+  width: 100%;
+  height: 4rem;
+}
+
+.ColmarLogo {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.ColmarLogo img {
+  height: 3rem;
+}
+
+.ColmarLogo .orgName {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+.orgName #firstName {
+  font-weight: 900;
+}
+
+.orgName #lastName {
+  font-weight: 300;
+  color: darkgrey;
+}
+
+.navMenu ul {
+  display: flex;
+  padding-right: 1.5rem;
+}
+
+.navMenu ul li {
+  padding-left: 1rem;
+  font-size: 1.25rem;
+}
+
+.navMenu a:hover {
+  color: red;
+}
+
+.navMenu .mobileMenu {
+  display: none;
+}
+
+/* */
+
+
+
+
+
+/* */
+
+
+
+
+/* */
+
+
+
+/* */
+
+
+
+/* */
+
+
+/* */
