@@ -241,9 +241,63 @@ a {
 
 }
 
-/* */
+/* Thesis Section */
 
+.thesisSection {
+  background-color: lightgreen;
+}
 
+.thesisSection .thesisTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.thesisTitle h1 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.thesisExhibits {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.videoSection {
+  width: 60%;
+  margin: 0 1.5rem;
+}
+
+.videoSection video {
+  width: 100%;
+}
+
+.thesisLinks {
+  width: 40%;
+  margin-left: 1.5rem;
+}
+
+/* TODO: Work on thesis exhibit links */
+
+.thesisLink {
+  display: flex;
+  background-color: lightyellow;
+}
+
+.thesisImg {
+  width: 35%;
+}
+
+.thesisImg img {
+  width: 100%;
+  height: auto;
+  margin: 1rem;
+}
+
+.thesisContent {
+  width: 65%;
+}
 
 /* */
 
