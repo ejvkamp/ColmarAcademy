@@ -138,6 +138,12 @@ a {
   margin: 2rem auto 1.5rem auto;
 }
 
+.leftMain .source {
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: red;
+}
+
 .rightMain {
   width: 40%;
 }
@@ -164,8 +170,7 @@ a {
 
 .infoBox .contentBox {
   width: 65%;
-  padding-top: 10%;
-  padding-left: .5rem;
+  padding: 10% .5rem;
 }
 
 .contentBox h3 {
