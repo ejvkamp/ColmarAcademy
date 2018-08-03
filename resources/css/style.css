@@ -186,9 +186,60 @@ a {
   color: blue;
 }
 
-/*  */
+/* Learning Section */
 
+.learningSection {
+  background-color: lightgrey;
+}
 
+.learningSection .learningTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.learningTitle h1 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.courseList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2.5rem 2rem 2.5rem;
+}
+
+.course {
+  width: 30%;
+  margin: 1rem;
+  margin-top: 2rem;
+  background-color: white;
+}
+
+.courseImg img {
+  width: 100%;
+  height: auto;
+}
+
+.courseInfo {
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.courseInfo h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.courseInfo p {
+  padding: 0.5rem 0;
+}
+
+.courseInfo span {
+
+}
 
 /* */
 
