@@ -2,6 +2,7 @@
 
 html {
   font-size: 16px;
+  line-height: 1.3;
 }
 
 a {
@@ -96,13 +97,13 @@ a {
   font-size: 3rem;
   font-weight: 900;
   padding-top: 40%;
-  padding-bottom: 1.5rem;
+  padding-bottom: 5%;
 }
 
 .heroContent h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 2.5rem;
+  padding-bottom: 7%;
 }
 
 .heroContent span {
@@ -115,13 +116,72 @@ a {
   font-weight: 400;
 }
 
+/* Main Section*/
 
-/* */
+.mainSection {
+  display: flex;
+  padding: 2rem 0;
+}
 
+.leftMain {
+  width: 60%;
+  padding: 0 1.5rem;
+}
 
+.leftMain img {
+  width: 100%;
+}
 
+.leftMain h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 2rem auto 1.5rem auto;
+}
 
-/* */
+.rightMain {
+  width: 40%;
+}
+
+.infoBox {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+}
+
+.infoBox:last-child {
+  background-color: grey;
+}
+
+.infoBox .imgBox {
+  width: 35%;
+  padding: 1rem;
+}
+
+.imgBox img {
+  width: 100%;
+  height: auto;
+}
+
+.infoBox .contentBox {
+  width: 65%;
+  padding-top: 10%;
+  padding-left: .5rem;
+}
+
+.contentBox h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.contentBox p {
+  padding: .5rem 0;
+}
+
+.contentBox a {
+  color: blue;
+}
+
+/*  */
 
 
 
