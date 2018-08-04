@@ -245,10 +245,10 @@ a {
 
 .thesisSection {
   background-color: lightgreen;
+
 }
 
-.thesisSection .thesisTitle {
-  width: 100%;
+.thesisSection .thesisTitle {  
   display: flex;
   justify-content: center;
 }
@@ -273,16 +273,30 @@ a {
   width: 100%;
 }
 
-.thesisLinks {
-  width: 40%;
-  margin-left: 1.5rem;
+.videoSection span h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
-/* TODO: Work on thesis exhibit links */
+.videoSection span p {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.thesisLinks {
+  width: 40%;
+}
 
 .thesisLink {
   display: flex;
   background-color: lightyellow;
+  margin-right: 0.5rem;
+}
+
+.thesisLink:first-child {
+  background-color: grey;
 }
 
 .thesisImg {
@@ -297,6 +311,17 @@ a {
 
 .thesisContent {
   width: 65%;
+  padding: 2rem;
+  margin-top: 2.5%;
+}
+
+.thesisContent h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.thesisContent p {
+  padding-top: .5rem;
 }
 
 /* */
