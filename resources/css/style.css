@@ -73,7 +73,6 @@ body {
   margin: auto;
 }
 
-
 /* Top Nav */
 
 .topNav {
@@ -181,6 +180,31 @@ body {
   cursor:pointer;
 }
 
+/* Hero Section for Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .heroContent h1 {
+    padding-top: 20%;
+    font-size: 1.75rem;
+  }
+
+  .heroContent h2 {
+    font-size: 1.25rem;
+  }
+
+}
+
+
+/* TODO: Hero Section for mobile */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //CSS
+
+}
+
+
 /* Main Section*/
 
 .mainSection {
@@ -264,6 +288,47 @@ div .contentBox.first {
   color: hsla(0, 100%, 50%, 1);
 }
 
+/* Main Section for Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .leftMain {
+    padding-bottom: 0;
+  }
+
+  .leftMain h1 {
+    margin: 1rem auto;
+}
+
+  .leftMain .source {
+    padding: 1.5rem 0;
+  }
+
+  .infoBox .contentBox {
+    padding: 4% .5rem;
+  }
+
+  div .contentBox.first {
+    padding: 2% .5rem;
+  }
+
+  .contentBox p {
+    padding: .5rem 0;
+  }
+
+
+
+}
+
+/* TODO: Main Section for mobile */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //CSS
+
+}
+
+
 /* Learning Section */
 
 .learningSection {
@@ -316,6 +381,29 @@ div .contentBox.first {
 .courseInfo span, p {
   font-weight: 300;
 }
+
+/* Learning Section for Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .courseList {
+    padding: 0 1.5rem 2rem 1.5rem;
+  }
+
+  .course {
+    width: 45%;
+  }
+
+}
+
+/* TODO: Learning Section for Mobile */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //CSS
+
+}
+
 
 /* Thesis Section */
 
@@ -393,6 +481,26 @@ div .contentBox.first {
   padding-top: .5rem;
 }
 
+/* Thesis Section for Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .thesisContent {
+    padding: 2rem;
+    padding-top: 0;
+    margin-top: 1rem;
+  }
+
+}
+
+/* TODO: Thesis Section for Mobile */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //CSS
+
+}
+
 /* Footer Section */
 
 footer {
@@ -412,7 +520,23 @@ footer {
   color: hsla(0, 100%, 50%, 1);
 }
 
+/* Footer Section for Tablets */
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  footer {
+    padding-bottom: 2rem;
+  }
+
+}
+
+/* TODO: Footer Section for Mobile */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //CSS
+
+}
 
 
 /* */
