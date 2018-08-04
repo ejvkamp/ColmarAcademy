@@ -120,12 +120,11 @@ a {
 
 .mainSection {
   display: flex;
-  padding: 2rem 0;
 }
 
 .leftMain {
   width: 60%;
-  padding: 0 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .leftMain img {
@@ -146,12 +145,17 @@ a {
 
 .rightMain {
   width: 40%;
+  border-left: 1px solid lightgrey;
+  padding-top: 2rem;
 }
 
 .infoBox {
   display: flex;
   justify-content: space-between;
-  border: 1px solid grey;
+}
+
+.infoBox:first-child {
+  border-bottom: 2px solid lightgrey;
 }
 
 .infoBox:last-child {
@@ -244,7 +248,6 @@ a {
 /* Thesis Section */
 
 .thesisSection {
-  background-color: lightgreen;
 
 }
 
@@ -291,7 +294,6 @@ a {
 
 .thesisLink {
   display: flex;
-  background-color: lightyellow;
   margin-right: 0.5rem;
 }
 
@@ -327,11 +329,11 @@ a {
 /* Footer Section */
 
 footer {
-  background-color: orange;
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem 3rem 1.5rem;
   font-size: 0.9rem;
+  border-top: 1px solid grey;
 }
 
 .legalLinks a  {
