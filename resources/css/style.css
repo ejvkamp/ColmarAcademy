@@ -544,8 +544,7 @@ div .contentBox.first {
   .mobileCourseList {
     display: flex;
     padding: 1rem;
-    padding-bottom: 2rem;
-
+    padding-bottom: 1rem;
   }
 
   .mobileCourseList ul {
@@ -555,7 +554,6 @@ div .contentBox.first {
   .mobileCourseList ul li {
     background-color: hsla(0, 0%, 85%, 1);
     padding: 1rem;
-    padding-bottom: 1.5rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
     font-size: 1.25rem;
@@ -651,9 +649,32 @@ div .contentBox.first {
 
 }
 
-/* TODO: Thesis Section for Mobile */
+/* Thesis Section for Mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
+
+  .thesisExhibits {
+    margin-top: 0;
+  }
+
+  .thesisTitle h1 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .videoSection {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .videoSection span h3 {
+    display: none;
+  }
+
+  .videoSection span p {
+    display: none;
+  }
 
   .thesisLinks {
     display: none;
@@ -694,7 +715,14 @@ footer {
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-  //CSS
+  footer {
+    padding: 2.5rem 0 1rem 1.5rem;
+    font-size: 0.6rem;
+  }
+
+  .legalLinks {
+    display: none;
+  }
 
 }
 
