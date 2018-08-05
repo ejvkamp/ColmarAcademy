@@ -295,7 +295,6 @@ body {
 
 }
 
-
 /* Main Section*/
 
 .mainSection {
@@ -343,6 +342,10 @@ body {
 .infoBox .imgBox {
   width: 35%;
   padding: 1rem;
+}
+
+.infoBox .imgBox .mobileImg {
+  display: none;
 }
 
 .infoBox .imgBox.first {
@@ -406,19 +409,44 @@ div .contentBox.first {
   .contentBox p {
     padding: .5rem 0;
   }
-
-
-
 }
 
-/* TODO: Main Section for mobile */
+/* Main Section for mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-  //CSS
+  .leftMain {
+    display: none;
+  }
 
+  .rightMain {
+    width: 100%;
+    border: none;
+    padding-top: 1rem;
+  }
+
+  .infoBox {
+    flex-wrap: wrap;
+  }
+
+  .infoBox .imgBox {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .infoBox .imgBox .desktopImg {
+    display: none;
+  }
+
+  .infoBox .imgBox .mobileImg {
+    display: flex;
+  }
+
+  .infoBox .contentBox, .infoBox .contentBox.first {
+    width: 100%;
+    padding: 0 2rem 1rem 2rem;
+  }
 }
-
 
 /* Learning Section */
 
