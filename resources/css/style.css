@@ -121,7 +121,7 @@ body {
 
 .navMenu ul li {
   padding-left: 1rem;
-  font-size: 1.25rem;  
+  font-size: 1.25rem;
 }
 
 .navMenu a {
@@ -139,7 +139,6 @@ body {
 /* topNav Section for Tablets */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
   .ColmarLogo img {
     height: 3rem;
   }
@@ -152,13 +151,11 @@ body {
     padding-left: 1rem;
     font-size: 1rem;
   }
-
 }
 
 /* topNav Section for Mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
-
   /* Global */
   h1 {
     font-size: 1.75rem;
@@ -268,10 +265,9 @@ body {
 
 }
 
-/* TODO: Hero Section for mobile */
+/* Hero Section for mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
-
   .heroSection {
     flex-wrap: wrap;
   }
@@ -302,11 +298,9 @@ body {
   .heroSpace {
     display: none;
   }
-
 }
 
 /* Main Section*/
-
 .mainSection {
   display: flex;
 }
@@ -376,10 +370,6 @@ div .contentBox.first {
   padding: 6% .5rem;
 }
 
-.contentBox h3 {
-
-}
-
 .contentBox p {
   padding: .75rem 0;
 }
@@ -396,7 +386,6 @@ div .contentBox.first {
 /* Main Section for Tablets */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
   .leftMain {
     padding-bottom: 0;
   }
@@ -423,9 +412,7 @@ div .contentBox.first {
 }
 
 /* Main Section for mobile */
-
 @media (min-width: 320px) and (max-width: 767px) {
-
   .leftMain {
     display: none;
   }
@@ -469,7 +456,6 @@ div .contentBox.first {
 }
 
 /* Learning Section */
-
 .learningSection {
   background-color: hsla(0, 0%, 85%, 1);
 }
@@ -530,7 +516,6 @@ div .contentBox.first {
 }
 
 /* Learning Section for Tablets */
-
 @media (min-width: 768px) and (max-width: 1024px) {
 
   .courseList {
@@ -540,13 +525,10 @@ div .contentBox.first {
   .course {
     width: 45%;
   }
-
 }
 
 /* Learning Section for Mobile */
-
 @media (min-width: 320px) and (max-width: 767px) {
-
   .learningSection {
     background-color: hsla(0, 0%, 100%, 1);
     border-bottom: 2px solid hsla(0, 0%, 85%, 1);
@@ -579,16 +561,10 @@ div .contentBox.first {
     color: hsla(0, 100%, 50%, 1);
     cursor: pointer;
   }
-
 }
 
 
 /* Thesis Section */
-
-.thesisSection {
-
-}
-
 .thesisSection .thesisTitle {
   display: flex;
   justify-content: center;
@@ -651,30 +627,25 @@ div .contentBox.first {
   margin-top: 2.5%;
 }
 
-.thesisContent h3 {
-
-}
-
 .thesisContent p {
   padding-top: .5rem;
 }
 
 /* Thesis Section for Tablets */
-
 @media (min-width: 768px) and (max-width: 1024px) {
-
   .thesisContent {
     padding: 2rem;
     padding-top: 0;
     margin-top: 1rem;
   }
 
+  .videoSection p {
+    font-size: 0.75rem;
+  }
 }
 
 /* Thesis Section for Mobile */
-
 @media (min-width: 320px) and (max-width: 767px) {
-
   .thesisExhibits {
     margin-top: 0;
   }
@@ -701,11 +672,9 @@ div .contentBox.first {
   .thesisLinks {
     display: none;
   }
-
 }
 
 /* Footer Section */
-
 footer {
   display: flex;
   justify-content: space-between;
@@ -725,18 +694,14 @@ footer {
 }
 
 /* Footer Section for Tablets */
-
 @media (min-width: 768px) and (max-width: 1024px) {
-
   footer {
     padding-bottom: 2rem;
   }
 }
 
 /* Footer Section for Mobile */
-
 @media (min-width: 320px) and (max-width: 767px) {
-
   footer {
     padding: 2.5rem 0 1rem 1.5rem;
     font-size: 0.6rem;
