@@ -70,6 +70,7 @@ p {
 
 body {
   max-width: 90rem;
+  min-width: 20rem;
   margin: auto;
 }
 
@@ -83,6 +84,7 @@ body {
   z-index: 5;
   width: 100%;
   max-width: 90rem;
+  min-width: 20rem;
   height: 4rem;
   background-color: hsla(0, 0%, 100%, 1);
   border-bottom: 1px solid hsla(0, 0%, 85%, 1);
@@ -109,7 +111,7 @@ body {
 
 .orgName #lastName {
   font-weight: 300;
-  color: darkgrey;
+  color: hsla(0, 0%, 29%, 1);
 }
 
 .navMenu ul {
@@ -128,6 +130,73 @@ body {
 
 .navMenu .mobileMenu {
   display: none;
+}
+
+/* topNav Section for Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .topNav {
+
+  }
+
+  .ColmarLogo img {
+    height: 3rem;
+  }
+
+  .ColmarLogo .orgName {
+    font-size: 1.75rem;
+  }
+
+  .navMenu ul li {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+}
+
+/* TODO: topNav Section for Mobile */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  /* Global */
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* topNav */
+
+  .ColmarLogo {
+    display: none;
+  }
+
+  .navMenu .desktop {
+    display: none;
+  }
+
+  .navMenu {
+    width: 100%;
+  }
+
+  .navMenu ul li {
+    padding: 0;
+  }
+
+  .navMenu .mobileMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+  }
+
+  .mobileMenu img {
+    height: 2.5rem;
+  }
+
 }
 
 /* Hero Section */
@@ -198,7 +267,7 @@ body {
 
 /* TODO: Hero Section for mobile */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
   //CSS
 
@@ -322,7 +391,7 @@ div .contentBox.first {
 
 /* TODO: Main Section for mobile */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
   //CSS
 
@@ -398,7 +467,7 @@ div .contentBox.first {
 
 /* TODO: Learning Section for Mobile */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
   //CSS
 
@@ -495,7 +564,7 @@ div .contentBox.first {
 
 /* TODO: Thesis Section for Mobile */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
   //CSS
 
@@ -532,7 +601,7 @@ footer {
 
 /* TODO: Footer Section for Mobile */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
   //CSS
 
