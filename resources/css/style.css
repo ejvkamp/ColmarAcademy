@@ -121,7 +121,11 @@ body {
 
 .navMenu ul li {
   padding-left: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.25rem;  
+}
+
+.navMenu a {
+  transition: color 200ms ease-out 50ms;
 }
 
 .navMenu a:hover {
@@ -190,6 +194,11 @@ body {
 
   .mobileMenu img {
     height: 2.5rem;
+    transition: color 200ms ease-out 50ms;
+  }
+
+  .mobileMenu img:hover {
+    opacity: 0.5;
   }
 }
 
@@ -236,6 +245,7 @@ body {
   padding: 0.5rem;
   color: hsla(0, 0%, 100%, 1);
   background-color: hsla(0, 0%, 29%, 1);
+  transition: color 200ms ease-out 50ms;
 }
 
 .heroContent span:hover {
@@ -376,6 +386,7 @@ div .contentBox.first {
 
 .contentBox a {
   color: hsla(210, 100%, 50%, 1);
+  transition: color 200ms ease-out 50ms;
 }
 
 .contentBox a:hover {
@@ -501,6 +512,10 @@ div .contentBox.first {
   padding-bottom: 1.5rem;
 }
 
+.courseInfo h3 {
+  transition: color 200ms ease-out 50ms;
+}
+
 .courseInfo h3:hover {
   color: hsla(0, 100%, 50%, 1);
   cursor: pointer;
@@ -557,7 +572,14 @@ div .contentBox.first {
     margin-bottom: 0.5rem;
     font-weight: 600;
     font-size: 1.25rem;
+    transition: color 200ms ease-out 50ms;
   }
+
+  .mobileCourseList ul li:hover {
+    color: hsla(0, 100%, 50%, 1);
+    cursor: pointer;
+  }
+
 }
 
 
@@ -695,6 +717,7 @@ footer {
 .legalLinks a  {
   padding-left: 0.75rem;
   font-weight: 800;
+  transition: color 200ms ease-out 50ms;
 }
 
 .legalLinks a:hover  {
@@ -708,10 +731,9 @@ footer {
   footer {
     padding-bottom: 2rem;
   }
-
 }
 
-/* TODO: Footer Section for Mobile */
+/* Footer Section for Mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
 
@@ -723,8 +745,4 @@ footer {
   .legalLinks {
     display: none;
   }
-
 }
-
-
-/* */
