@@ -136,10 +136,6 @@ body {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  .topNav {
-
-  }
-
   .ColmarLogo img {
     height: 3rem;
   }
@@ -155,7 +151,7 @@ body {
 
 }
 
-/* TODO: topNav Section for Mobile */
+/* topNav Section for Mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
 
@@ -169,7 +165,6 @@ body {
   }
 
   /* topNav */
-
   .ColmarLogo {
     display: none;
   }
@@ -196,7 +191,6 @@ body {
   .mobileMenu img {
     height: 2.5rem;
   }
-
 }
 
 /* Hero Section */
@@ -264,12 +258,40 @@ body {
 
 }
 
-
 /* TODO: Hero Section for mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-  //CSS
+  .heroSection {
+    flex-wrap: wrap;
+  }
+
+  .heroImage {
+    padding: 0;
+    width: 100%;
+  }
+
+  .heroImage img {
+    height: auto;
+  }
+
+  .heroContent {
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+
+  .heroContent h1 {
+    padding-top: 0;
+    padding-bottom: 5%;
+  }
+
+  .heroContent h2 {
+    font-size: 1.25rem;
+  }
+
+  .heroSpace {
+    display: none;
+  }
 
 }
 
@@ -566,7 +588,9 @@ div .contentBox.first {
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-  //CSS
+  .thesisLinks {
+    display: none;
+  }
 
 }
 
