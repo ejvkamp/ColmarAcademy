@@ -204,6 +204,16 @@ body {
   }
 }
 
+@media (max-width: 319px) {
+  body {
+    display: none !important;
+  }
+
+  html::after {
+    content: "Sorry! You need a screen width of 320px minimum to view this website.";
+  }
+}
+
 /* Hero Section */
 
 .heroSection {
