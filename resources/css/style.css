@@ -588,12 +588,12 @@ div .contentBox.first {
   width: 100%;
 }
 
-.videoSection span h3 {
+.videoSection h3 {
   padding-top: 1.5rem;
   padding-bottom: 0.5rem;
 }
 
-.videoSection span p {
+.videoSection p {
   padding-right: 2rem;
   padding-bottom: 2rem;
 }
@@ -638,10 +638,6 @@ div .contentBox.first {
     padding-top: 0;
     margin-top: 1rem;
   }
-
-  .videoSection p {
-    font-size: 0.75rem;
-  }
 }
 
 /* Thesis Section for Mobile */
@@ -661,11 +657,11 @@ div .contentBox.first {
     margin: 0;
   }
 
-  .videoSection span h3 {
+  .videoSection h3 {
     display: none;
   }
 
-  .videoSection span p {
+  .videoSection p {
     display: none;
   }
 
